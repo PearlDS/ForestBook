@@ -16,9 +16,12 @@ public class Bush extends Plant{
     @Override
     public String toString() {
         return "Bush{" +
+          //  "name='" + getName()+'\''+
                 "fruit='" + fruit + '\'' +
                 ", leafType=" + leafType +
-                '}';
+                '}' 
+            //+ super.toString()
+            ;
     }
 
     public String getFruit() {
