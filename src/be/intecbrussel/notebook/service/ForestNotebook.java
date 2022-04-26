@@ -105,8 +105,11 @@ public class ForestNotebook {
         }
     }
     public void addPlant(Plant plant){
+        
+        if(!plants.contains(plant)){
         plantCount++;
         plants.add(plant);
+        }
 
     }
 
